@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="text-contain">
+                <h1>GOOGLE</h1>
+                  <form action="">
+                      <div class="box">
+                          <input type="text" placeholder="Search Google or type a URL">
+                          <img src="images/search.png" alt="">
+                      </div>
+                  </form>
+            </div>  
+                <div class="form-container" id="modal">
+                   <div class="header">
+                       <h1>Sign Up</h1>
+                       <p id="close">&times;</p>
+                   </div>
+                    <form action="">
+                        <div class="inp-grp">
+                            <input type="text" placeholder="Your Full Name" id="fName">
+                            <small id="fError"></small>
+                        </div>
+                        
+                        <div class="inp-grp">
+                            <input type="text" placeholder="Profession" id="pStatus">
+                            <small id="pError"></small>
+                        </div>
+                        
+                        <div class="inp-grp">
+                            <input type="text" placeholder="Enter your e-mail" id="eMail">
+                            <small id="mError"></small>
+                        </div>
+                        
+                        <div class="inp-grp">
+                            <input type="password" placeholder="Password" id="passCode">
+                            <small id="passError"></small>
+                        </div>
+                        
+                        <div class="inp-grp">
+                            <input type="password" placeholder="Re-password" id="rePass">
+                            <small id="reError"></small>
+                        </div>
+                        
+                        <div class="inp-grp">
+                            <button type="submit" onclick="return subm();">Submit</button>
+                        </div>
+                    </form>
+               </div>   
+          </div>
+        
+        <div class="down-box" id="trigger">
+            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+        </div>  
+    </div>
+    
+    
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+ 
+
+
+
+
+
+

@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+/*==============================
+Common Css Ends
+===================================*/
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color:  #214f53;
+    position: relative;
+    
+}
+
+.main-container .container{
+    width: 1160px;
+    height: 100vh;
+    margin: 0 auto; 
+    
+}
+
+.main-container .container .text-contain{
+    text-align: center;
+    
+}
+
+.main-container .container .text-contain h1{
+     font-family: 'Raleway', sans-serif;
+    font-size: 150px;
+    color: crimson;
+    padding-top: 120px;
+}
+
+.main-container .container .text-contain form .box{
+    height: 200px;
+    width: 100%;
+    margin-top: 150px;
+    z-index: 2;
+    position: relative;
+}
+
+.main-container .container .text-contain form .box input{
+    height: 45px;
+    width: 563px;
+    border: 1px solid white;
+    border-radius: 25px;
+    outline: none; 
+    position: relative;
+    z-index: 2;
+}
+
+.main-container .container .text-contain form .box img{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    z-index: 5;
+    margin-left: -47px;
+    margin-top: 10px;
+}
+ 
+.main-container .down-box{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    cursor: pointer;
+}
+
+.main-container .down-box i{
+    background-color: red;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 24px;
+}
+
+.main-container .container .form-container{
+    width: 600px;
+    padding: 15px;
+    background-color: #d3d2d2;
+    box-sizing: border-box;
+    margin-left: 294px;
+    z-index: 99999;
+    margin-top: -150px;
+    position: absolute;
+    bottom: 100px;
+    left: 50;
+    display: none;
+}
+
+.main-container .container .form-container .header{
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.main-container .container .form-container p{
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+.main-container .container .form-container form{
+    margin-left: 80px;
+}
+
+.main-container .container .form-container .inp-grp{
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-container .container .form-container .inp-grp input{
+    width: 400px;
+    padding: 15px 0 15px 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.main-container .container .form-container small{
+    color: firebrick;
+    height: 10px;
+    margin-left: 25px;
+}
+
+.main-container .container .form-container button{
+    width: 150px;
+    padding: 15px 0;
+    color: white;
+    background-color: #3c1348;
+    border: none;
+    margin-left: 118px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
